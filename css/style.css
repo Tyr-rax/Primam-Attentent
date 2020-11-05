@@ -1,0 +1,41 @@
+/*
+Css for Primam Attentent
+*/
+
+/*----404----*/
+.e404{
+    text-align: center;
+}
+.e404 h1{
+    font-size: 200px;
+}
+/*----navbar----*/
+@media screen and (min-width: 600px){
+    .navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+
+/*----footer-----*/
+.footer{
+ background-color: #0c0c0c;
+}
+
+.footer-row li{
+    list-style: none;
+}
+.footer-row{
+    color: white;
+}
+
+/*----wrapper----*/
+body, wrapper {
+    min-height:100vh;
+}
+
+.flex-fill {
+    flex:1 1 auto;
+}
